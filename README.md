@@ -15,8 +15,8 @@ This is a simple chat system simulation using OpenAI's GPT-4o model. It is built
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/chatgpt-chat-system.git
-   cd chatgpt-chat-system
+   git clone git@github.com:gargximran/ChatGPT-4o-API-simulation.git
+   cd ChatGPT-4o-API-simulation
    ```
 
 2. **Install dependencies:**
