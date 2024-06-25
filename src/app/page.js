@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import OpenAIApi from 'openai';
 import ClipLoader from 'react-spinners/ClipLoader';
+import ReactMarkdown from 'react-markdown';
 
 const Home = () => {
   const [apiKey, setApiKey] = useState('');
@@ -60,7 +61,7 @@ const Home = () => {
         <div className="flex flex-col space-y-4 mb-4 overflow-y-auto max-h-80">
           {messages.map((msg, idx) => (
             <div key={idx} className={`p-2 rounded-lg ${msg.role === 'user' ? 'bg-blue-800 self-end' : 'bg-gray-700 self-start'}`}>
-              {msg.content}
+              <ReactMarkdown>{msg.content}</ReactMarkdown>
             </div>
           ))}
         </div>
