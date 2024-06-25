@@ -60,8 +60,5 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 For any questions or issues, please open an issue in this repository.
 
----
-
-Feel free to customize this `README.md` as per your needs. If you have any suggestions or feedback, please let me know!
 
 
